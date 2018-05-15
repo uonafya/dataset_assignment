@@ -1,0 +1,28 @@
+{
+    "version": "0.1",
+    "name": "Data Set Assignment",
+    "description": "This app helps in assigning data sets to facilities in a sub county",
+    "launch_path": "/index.html",
+    "appType": "APP",
+    "icons": {
+        "16": "/img/assigner-16.png",
+        "48": "/img/assigner-48.png",
+        "128": "/img/assigner-128.png"
+    },
+    "developer": {
+        "name": "Rapando @ Health IT",
+        "url": "http://healthit.uonbi.ac.ke"
+    },
+    "default_locale": "en",
+    "activities": {
+        "dhis": {
+            "href": "https://test.hiskenya.org/kenya",
+            "namespace": "healthit-rapando81001-dataset-assign"
+        }
+    },
+    "authorities": [
+        "MY_APP_ADD_NEW",
+        "MY_APP_UPDATE",
+        "MY_APP_DELETE"
+    ]
+}
